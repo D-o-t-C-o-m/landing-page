@@ -4,34 +4,142 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 .navbar {
     background-color: #1f2937;
 }
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.nav{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header {
     background-color: #1f2937;
 }
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    margin-bottom: 30px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25px;
+}
 .awesome {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
+
 .awesomep {
     font-size: 18px;
     color: #f9faf8;
+    font-weight: 400;
 }
-.footer {
-    background-color: #1f2937;
-}
+
 .boxes {
     background-color: #fff;
+    flex: 1;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
 }
+
+.boxes img {
+    border: solid 5px #3882f6;
+}
+
+.box-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
 .quote {
     background-color: #e5e7eb;
+}
+
+.bigquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#atribute {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    margin-right: 75px;
+}
+
+.regbox {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 25px;
+}
+
+#calltoaction {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    height: 100%;
+    padding: 50px;
 }
 
 a {
@@ -40,4 +148,26 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.header button {
+  border: none;
+}
+
+.regbox button {
+    border: solid 1px;
+}
+
+img {
+    max-width: 75%;
+    border-radius: 16px;
 }
