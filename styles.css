@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1f2937;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.header {
+    background-color: #1f2937;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.awesomep {
+    font-size: 18px;
+    color: #f9faf8;
+}
+.footer {
+    background-color: #1f2937;
+}
+.boxes {
+    background-color: #fff;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
