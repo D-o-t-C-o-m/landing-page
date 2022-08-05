@@ -47,6 +47,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 25px;
 }
 
 .header .container {
@@ -75,10 +76,8 @@ body {
 
 .boxes {
     background-color: #fff;
-    flex: 1;
-    border-radius: 10px;
-    margin: 20px 10px;
-    padding: 15px 20px;
+    padding: 40px;
+    
 }
 
 .boxes img {
@@ -93,14 +92,20 @@ body {
     justify-content: center;
 }
 
-.box {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;  
+.boxes .container {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     text-align: center;
 }
 
+.imgtext {
+    inline-size: 125px;
+    margin: auto;
+}
 .quote {
     background-color: #e5e7eb;
+    padding: 40px;
 }
 
 .bigquote {
@@ -108,6 +113,7 @@ body {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
+    padding: 30px;
 }
 
 #atribute {
@@ -118,6 +124,10 @@ body {
     justify-content: flex-end;
     margin-bottom: 25px;
     margin-right: 75px;
+}
+
+.register {
+    padding: 80px;
 }
 
 .regbox {
@@ -132,7 +142,6 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
-
 
 .footer {
     background-color: #1f2937;
